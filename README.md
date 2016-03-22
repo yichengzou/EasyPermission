@@ -104,7 +104,7 @@ Add the dependency
 
 ```
 	dependencies {
-	        compile 'com.github.Rowandjj:EasyPermission:1.0'
+	        compile 'com.github.Rowandjj:EasyPermission:1.2'
 	}
 ```
 
