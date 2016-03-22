@@ -86,6 +86,29 @@ checkSelfPermission(), requestPermissions(), onRequestPermissionsResult(),should
 
 只需两步:
 
+- 添加依赖
+
+Add it in your root build.gradle at the end of repositories:
+
+```
+
+	allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+```
+
+Add the dependency
+
+```
+	dependencies {
+	        compile 'com.github.Rowandjj:EasyPermission:1.0'
+	}
+```
+
+
 - 构建`EasyPermission`实例
     
 ```
